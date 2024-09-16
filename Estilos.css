@@ -1,0 +1,12 @@
+.Encabezado-titulo, .Encabezado-parrafo{
+    text-align: center;
+}
+
+#text1{
+    font-weight: normal;
+    color: gray;
+}
+
+#text2{
+    background-color: blue; 
+}
