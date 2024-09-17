@@ -10,3 +10,52 @@
 #text2{
     background-color: blue; 
 }
+
+.Contenedor_mayor{
+    display: flex;
+    justify-content: center;
+}
+
+.Contenedor_mayor > .Columna_1, .Columna_2, .Columna_3 {
+    width: 25%;
+    height: 400px; 
+
+    margin: 5px;
+
+    background-color: rgba(255, 255, 255, 0.945);
+    flex-direction: column;                          /* ubicar bloques pequeños columnas  */
+}
+
+.Columna_1_1, .Columna_2_1, .Columna_2_2, .Columna_3_1 {
+    width: 100%; 
+    height: 180px; 
+    background-color: rgba(241, 236, 236, 0.945);
+
+    
+}
+
+.Columna_1_1{
+    border-top: 2px solid rgb(12, 238, 238);
+}
+
+.Columna_2_1{
+    border-top: 2px solid rgb(248, 6, 6);
+}
+
+.Columna_2_2{
+    border-top: 2px solid rgb(247, 124, 9);
+}
+
+.Columna_3_1{
+    border-top: 2px solid rgb(68, 10, 204);
+}
+
+.Columna_1, .Columna_3, .Columna_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+
+
