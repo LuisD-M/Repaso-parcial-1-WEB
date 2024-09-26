@@ -8,7 +8,13 @@
 
         <title>Repaso parcial 1</title>
 
-        <link rel="stylesheet" href="Estilos.css">
+        <link rel="stylesheet" href="./ArchiCSS/Estilos.css">
+
+        <script>
+            alert('Hola Mundo');
+            console.log('imprime en consola');
+        </script>
+
     </head>
 
     <body>
@@ -51,6 +57,30 @@
             </div>
 
         </div>
+
+        <script>
+            class carro{
+                #marca;               //Propiedad privada
+                constructor(marca = 'ford', llantas = 4){
+                    this.#marca = marca;
+                    this.llantas = llantas;
+                }
+
+                get marca(){
+                    return this.#marca;
+                }
+
+                set marca(Nmarca){
+                    this.#marca = Nmarca;
+                }
+
+                pitar(){
+                    console.log('PIIIIII');
+                }
+            }
+
+            let carro1 = new carro();
+        </script>
 
 
     </body>
